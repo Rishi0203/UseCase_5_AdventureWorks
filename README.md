@@ -41,8 +41,9 @@ Hive is based on Apache Hadoop, an open-source system for storing and processing
 
 <h3>Project Architecture</h3>
 
+![Untitled Diagram (2) (1) - Copy (1)](https://user-images.githubusercontent.com/100192276/158571940-ee8029a8-be3b-450c-8779-417b0f3db540.png)
 
-![Untitled Diagram (2) (1) - Copy](https://user-images.githubusercontent.com/100192276/158548252-f6e26986-d622-43bb-a5f0-d826ae54b46a.png)
+
 
 
 
