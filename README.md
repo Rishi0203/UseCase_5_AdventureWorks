@@ -1,4 +1,5 @@
 <h1>SQL Analytics with Hive</h1>
+<hr>
 
 <p><b>Business Problem</b>: HDFC Ltd is one of India's leading housing finance companies. HDFC Ltd offers a wide range of loan products such as Home Loans for new and resale properties and also offers credit cards. Credit cards are a convenient way of making any purchases from shopping to purchasing your favourite gadget to buying that new AC for your home to booking your flights & hotel and more or settling exorbitant bills when you don't have immediate funds at your disposal. HDFC from past 1 year is facing a issue related volume and variety of data so Its decide to transform data from RDBMS (MySQL) to HADOOP (hive).</p>
 
@@ -10,15 +11,25 @@
 
 <p><b>Data Pipeline</b>: A data pipeline is a technique for transferring data from one system to another. The data may or may not be updated, and it may be handled in real-time (or streaming) rather than in batches. The data pipeline encompasses everything from harvesting or acquiring data using various methods to storing raw data, cleaning, validating, and transforming data into a query-worthy format, displaying KPIs, and managing the above process.</p>
 
+<h4>HDFS Tools</h4>
+
+<ul>
+ <li>Sqoop</li>
+ <li>Hive</li>
+ <li>Spark</li>
+ <li>PySpark</li>
+</li>
+</ul>  
+
 <p><b>Sqoop</b>: Sqoop is a tool designed to transfer data between Hadoop and relational database servers. It is used to import data from relational databases such as MySQL, Oracle to Hadoop HDFS, and export from Hadoop file system to relational databases. </p>
 
-<p><b>Apache Hive</b>: Apache Hive is a fault-tolerant distributed data warehousing solution that enables massive-scale analytics. Using SQL, Hive allows users to read, write, and manage petabytes of data.![Untitled Diagram (2) (1) - Copy](https://user-images.githubusercontent.com/100192276/158548228-e82d0422-5330-48e5-a261-d5580eb8d2e0.png)
+<p><b>Hive</b>: Apache Hive is a fault-tolerant distributed data warehousing solution that enables massive-scale analytics. Using SQL, Hive allows users to read, write, and manage petabytes of data.
 
 Hive is based on Apache Hadoop, an open-source system for storing and processing massive information. As a result, Hive is tightly linked with Hadoop and is built to handle petabytes of data fast. The ability to query massive datasets with a SQL-like interface, using Apache Tez or MapReduce, distinguishes Hive. </p>
 
 <p><b>Spark</b>: Spark is lightning-fast cluster computing technology, designed for fast computation. The main feature of Spark is its in-memory cluster computing that increases the processing speed of an application and 10 to 100 times faster than MapReduce.</p>
 
-<p><b>Scala</b>: Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.</p>
+<p><b>PySpark</b>: PySpark is the Python API for Apache Spark, an open source, distributed computing framework and set of libraries for real-time, large-scale data processing.</p>
 
 <h3>Data Source Description</h3>
 <p><b>Customer Test</b>: This table contain all customer data related information.</p>
