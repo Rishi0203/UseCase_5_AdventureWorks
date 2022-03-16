@@ -18,7 +18,7 @@ Hive is based on Apache Hadoop, an open-source system for storing and processing
 <p><b>Spark</b>: Spark is lightning-fast cluster computing technology, designed for fast computation. The main feature of Spark is its in-memory cluster computing that increases the processing speed of an application and 10 to 100 times faster than MapReduce.</p>
 
 <p><b>Scala</b>: Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.</p>
-
+![stack Overflow](http://lmsotfy.com/so.png)
 
 
 
