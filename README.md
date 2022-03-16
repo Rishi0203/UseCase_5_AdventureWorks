@@ -1,5 +1,4 @@
 <h1>SQL Analytics with Hive</h1>
-<br>
 
 <p><b>Business Problem</b>: HDFC Ltd is one of India's leading housing finance companies. HDFC Ltd offers a wide range of loan products such as Home Loans for new and resale properties and also offers credit cards. Credit cards are a convenient way of making any purchases from shopping to purchasing your favourite gadget to buying that new AC for your home to booking your flights & hotel and more or settling exorbitant bills when you don't have immediate funds at your disposal. HDFC from past 1 year is facing a issue related volume and variety of data so Its decide to transform data from RDBMS (MySQL) to HADOOP (hive).</p>
 
@@ -32,9 +31,9 @@ Hive is based on Apache Hadoop, an open-source system for storing and processing
 <p><b>PySpark</b>: PySpark is the Python API for Apache Spark, an open source, distributed computing framework and set of libraries for real-time, large-scale data processing.</p>
 <br>
 <h3>Data Source Description</h3>
-<p><b>Customer Test</b>: This table contain all customer data related information.</p>
-<p><b>Individual Text</b>: This table contain all Individual data information.</p>
-<p><b>Credit Card</b>: This table contain all credit card data information.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Customer Test</b>: This table contain all customer data related information.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Individual Text</b>: This table contain all Individual data information.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Credit Card</b>: This table contain all credit card data information.</p>
 
 
 ![Untitled (12)](https://user-images.githubusercontent.com/100192276/158550587-0619c0ca-d35b-4db7-9e6c-e2d2789f6ab6.png)
