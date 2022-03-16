@@ -1,5 +1,5 @@
 <h1>SQL Analytics with Hive</h1>
-<hr>
+<br>
 
 <p><b>Business Problem</b>: HDFC Ltd is one of India's leading housing finance companies. HDFC Ltd offers a wide range of loan products such as Home Loans for new and resale properties and also offers credit cards. Credit cards are a convenient way of making any purchases from shopping to purchasing your favourite gadget to buying that new AC for your home to booking your flights & hotel and more or settling exorbitant bills when you don't have immediate funds at your disposal. HDFC from past 1 year is facing a issue related volume and variety of data so Its decide to transform data from RDBMS (MySQL) to HADOOP (hive).</p>
 
@@ -10,7 +10,7 @@
 <p><b>Apache Hadoop</b>: Apache Hadoop is a Big Data technology that enables the distributed processing of massive data volumes across computer clusters using simple programming concepts. It is intended to grow from a single server to thousands of computers, each supplying local computing and storage.</p>
 
 <p><b>Data Pipeline</b>: A data pipeline is a technique for transferring data from one system to another. The data may or may not be updated, and it may be handled in real-time (or streaming) rather than in batches. The data pipeline encompasses everything from harvesting or acquiring data using various methods to storing raw data, cleaning, validating, and transforming data into a query-worthy format, displaying KPIs, and managing the above process.</p>
-
+<br>
 <h4>HDFS Tools</h4>
 
 <ul>
@@ -30,7 +30,7 @@ Hive is based on Apache Hadoop, an open-source system for storing and processing
 <p><b>Spark</b>: Spark is lightning-fast cluster computing technology, designed for fast computation. The main feature of Spark is its in-memory cluster computing that increases the processing speed of an application and 10 to 100 times faster than MapReduce.</p>
 
 <p><b>PySpark</b>: PySpark is the Python API for Apache Spark, an open source, distributed computing framework and set of libraries for real-time, large-scale data processing.</p>
-
+<br>
 <h3>Data Source Description</h3>
 <p><b>Customer Test</b>: This table contain all customer data related information.</p>
 <p><b>Individual Text</b>: This table contain all Individual data information.</p>
