@@ -12,13 +12,27 @@
 
 <p><b>Sqoop</b>: Sqoop is a tool designed to transfer data between Hadoop and relational database servers. It is used to import data from relational databases such as MySQL, Oracle to Hadoop HDFS, and export from Hadoop file system to relational databases. </p>
 
-<p><b>Apache Hive</b>: Apache Hive is a fault-tolerant distributed data warehousing solution that enables massive-scale analytics. Using SQL, Hive allows users to read, write, and manage petabytes of data.
+<p><b>Apache Hive</b>: Apache Hive is a fault-tolerant distributed data warehousing solution that enables massive-scale analytics. Using SQL, Hive allows users to read, write, and manage petabytes of data.![Untitled Diagram (2) (1) - Copy](https://user-images.githubusercontent.com/100192276/158548228-e82d0422-5330-48e5-a261-d5580eb8d2e0.png)
+
 Hive is based on Apache Hadoop, an open-source system for storing and processing massive information. As a result, Hive is tightly linked with Hadoop and is built to handle petabytes of data fast. The ability to query massive datasets with a SQL-like interface, using Apache Tez or MapReduce, distinguishes Hive. </p>
 
 <p><b>Spark</b>: Spark is lightning-fast cluster computing technology, designed for fast computation. The main feature of Spark is its in-memory cluster computing that increases the processing speed of an application and 10 to 100 times faster than MapReduce.</p>
 
 <p><b>Scala</b>: Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.</p>
-![stack Overflow](http://lmsotfy.com/so.png)
+
+<h3>Data Source Description</h3>
+<p><b>Customer Test</b>: This table contain all customer data related information.</p>
+<p><b>Individual Text</b>: This table contain all Individual data information.</p>
+<p><b>Credit Card</b>: This table contain all credit card data information.</p>
+
+
+![Untitled (12)](https://user-images.githubusercontent.com/100192276/158550587-0619c0ca-d35b-4db7-9e6c-e2d2789f6ab6.png)
+
+
+<h3>Project Architecture</h3>
+
+
+![Untitled Diagram (2) (1) - Copy](https://user-images.githubusercontent.com/100192276/158548252-f6e26986-d622-43bb-a5f0-d826ae54b46a.png)
 
 
 
