@@ -1,8 +1,8 @@
 <h3>Importing Customer & Individual Data From Mysql To HDFS Using Sqoop</h3>
 <p>SQOOP IMPORT \<br>
 &nbsp;&nbsp;&nbsp;&nbsp;--CONNECT jdbc:mysql://localhost:3306/adventureworks?useSSL=False \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;--USERNAME root --PASSWORD-FILE file:///home/saif/LFS/cohort_c9/env/sqoop.pwd \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;--DELETE-TARGET-DIR --TARGET-DIR /user/saif/HFS/Input/adventureworks \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;--USERNAME  ${USERNAME} --PASSWORD-FILE ${PASSWORD} \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;--DELETE-TARGET-DIR --TARGET-DIR ${DIR} \<br>
 &nbsp;&nbsp;&nbsp;&nbsp;--QUERY "select CustomerID,TerritoryID,AccountNumber,CustomerType,ModifiedDate,Demographics FROM customer_individual \<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE \$CONDITIONS" --SPLIT-BY CustomerID</p>
 
@@ -19,8 +19,8 @@
 <h3>Importing Credit Card data From MySQL to HDFS using Sqoop</h3>
 <p>SQOOP IMPORT \<br>
 &nbsp;&nbsp;&nbsp;&nbsp;--CONNECT jdbc:mysql://localhost:3306/adventureworks?useSSL=False \<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;--USERNAME root --PASSWORD-FILE file:///home/saif/LFS/cohort_c9/env/sqoop.pwd \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;--DELETE-TARGET-DIR --TARGET-DIR /user/saif/HFS/Input/adventureworks1 \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;--USERNAME ${USERNAME} --PASSWORD-FILE ${PASSWORD} \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;--DELETE-TARGET-DIR --TARGET-DIR ${DIR1} \<br>
 &nbsp;&nbsp;&nbsp;&nbsp;--QUERY "SELECT CreditCardID,CardType,CardNumber,ExpMonth,ExpYear,ModifiedDate FRM creditcard \<br>
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; WHERE \$CONDITIONS" -m 1
 </p>
