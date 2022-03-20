@@ -30,12 +30,12 @@ This big data project will look at Hive's capabilities to run analytical queries
 
 <h3>Data Source Description</h3>
 <p>Adventure Works is a free sample database of retail sales data. In this project, we will be only using Customer test, Individual test, Credit card, Sales order details, Store, Sales territory, Salesperson, Sales order header, Special offer tables from this database.</p>
-<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Customer Test</b>: This table contain all customer data related information.</p>
-<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Individual Text</b>: This table contain all Individual data information.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Customer Individual</b>: This table contain all customer data related information.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Individual</b>: This table contain all Individual data information.</p>
 <p>&nbsp;&nbsp; &nbsp;&nbsp;  <b>Credit Card</b>: This table contain all credit card data information.</p>
 
 
-![Untitled (12)](https://user-images.githubusercontent.com/100192276/158550587-0619c0ca-d35b-4db7-9e6c-e2d2789f6ab6.png)
+![image](https://user-images.githubusercontent.com/100192276/159165809-b0e591e2-9b0e-404e-9f04-41a25f6b8ac9.png)
 
 
 <h3>Project Architecture</h3>
